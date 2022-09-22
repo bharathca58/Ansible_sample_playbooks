@@ -5,5 +5,5 @@
    - name: Install docker
      ansible.builtin.yum:
        name: docker
-       state: latest
+       state: absent
 
