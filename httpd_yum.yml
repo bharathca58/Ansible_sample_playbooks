@@ -7,6 +7,10 @@
        name: httpd
        state: latest
        
+   - name: Print message
+     debug:
+       msg: httpd insatlled       
+       
    - name: start httpd
      service:
         name: httpd 
